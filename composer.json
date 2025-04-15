@@ -1,5 +1,5 @@
 {
-  "name": "notamedia/yii2-sentry",
+  "name": "madwire-media/yii2-sentry",
   "description": "Yii2 logger for Sentry",
   "keywords": [
     "sentry",
@@ -10,7 +10,7 @@
   "require": {
     "php": "^7.2|^8.0",
     "yiisoft/yii2": "^2.0",
-    "sentry/sdk": "^3.0"
+    "sentry/sentry": "^4.1"
   },
   "require-dev": {
     "codeception/codeception": "^4.0",
@@ -32,6 +32,10 @@
     {
       "type": "composer",
       "url": "https://asset-packagist.org"
+    },
+    {
+        "type": "composer",
+        "url": "https://madwire.jfrog.io/artifactory/api/composer/composer-local"
     }
   ],
   "scripts": {
